@@ -1,0 +1,14 @@
+<resources>
+    <color name="logcat_sender_color_v">#1e90ff</color>
+    <color name="logcat_sender_color_d">#00bfff</color>
+    <color name="logcat_sender_color_i">#008000</color>
+    <color name="logcat_sender_color_w">#f0e68c</color>
+    <color name="logcat_sender_color_e">#dc143c</color>
+    <color name="logcat_sender_color_o">#f5f5f5</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

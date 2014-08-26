@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="8dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logcat_sender_editText"
+            android:hint="@string/logcat_sender_label_hint"
+            android:layout_weight="1"/>
+
+        <ToggleButton
+            android:id="@+id/logcat_sender_logcatScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textOff="@string/logcat_sender_label_scroll_off"
+            android:textOn="@string/logcat_sender_label_scroll_on"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/logcat_sender_buttonShare"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/logcat_sender_label_share"/>
+
+        <Button
+            android:id="@+id/logcat_sender_buttonSave"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/logcat_sender_label_save"/>
+    </LinearLayout>
+</LinearLayout>

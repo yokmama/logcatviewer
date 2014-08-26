@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LogcatViewer</string>
+
+    <string name="logcat_sender_label_scroll_on">Lock</string>
+    <string name="logcat_sender_label_scroll_off">Auto</string>
+    <string name="logcat_sender_label_send">Send to</string>
+    <string name="logcat_sender_label_save">Save</string>
+    <string name="logcat_sender_label_share">Share</string>
+    <string name="logcat_sender_label_hint">input fileter here</string>
+    <string name="logcat_sender_file_dialog_item_sdcard">SD Card</string>
+    <string name="logcat_sender_file_dialog_item_parent">Back</string>
+    <string name="logcat_sender_save_success">Save Successful!</string>
+</resources>
